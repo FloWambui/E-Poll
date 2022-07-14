@@ -14,6 +14,7 @@ class CustomUserForm(FormSettings):
     email = forms.EmailField(required=True)
     # email = forms.EmailField(required=True)
     password = forms.CharField(widget=forms.PasswordInput)
+    identification_number=forms.IntegerField(widget=forms.NumberInput, required=True)
    
 
     widget = {
@@ -47,6 +48,23 @@ class CustomUserForm(FormSettings):
                     raise forms.ValidationError(
                         "The given email is already registered")
         return formEmail
+    
+    
+    def clean_id(self, *args, **kwargs):
+        formVoter = self.cleaned_data['identification_number'].lower()
+        if self.instance.pk is None:  # Insert
+            if CustomUser.objects.filter(identification_number=formVoter).exists():
+                raise forms.ValidationError(
+                    "The given id is already registered")
+        else:  # Update
+            identification_number = self.Meta.model.objects.get(
+                id=self.instance.pk).identification_number.lower()
+            if identification_number != formVoter:  # There has been changes
+                if CustomUser.objects.filter(identification_number=formVoter).exists():
+                    raise forms.ValidationError(
+                        "The given id is already registered")
+        return formVoter
+
 
     def clean_password(self):
         password = self.cleaned_data.get("password", None)
@@ -59,4 +77,4 @@ class CustomUserForm(FormSettings):
 
     class Meta:
         model = CustomUser
-        fields = ['first_name', 'last_name','email', 'password']
+        fields = ['first_name', 'last_name','email', 'password','identification_number']

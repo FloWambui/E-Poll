@@ -20,7 +20,7 @@ class CandidateSerializer(serializers.HyperlinkedModelSerializer):
 class VoterSerializer(serializers.ModelSerializer):
     class Meta:
         model = Voter
-        fields = ['admin', 'name', 'phone', 'email', 'voted', 'verified']
+        fields = ['admin', 'phone', 'email', 'voted', 'verified', 'identification_number']
 # ('__all__')
 
 class VotesSerializer(serializers.HyperlinkedModelSerializer):

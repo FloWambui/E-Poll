@@ -37,6 +37,7 @@ class CustomUser(AbstractUser):
     USER_TYPE = ((1, "Admin"), (2, "Voter"))
     username = None 
     email = models.EmailField(unique=True)
+    identification_number = models.IntegerField(unique=True)
     user_type = models.CharField(default=2, choices=USER_TYPE, max_length=1)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
