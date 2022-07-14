@@ -1,4 +1,6 @@
+# from typing_extensions import Required
 from django.db import models
+from pkg_resources import require
 from accounts.models import * 
 from cloudinary.models import CloudinaryField
 
@@ -7,7 +9,8 @@ from cloudinary.models import CloudinaryField
 class Voter(models.Model):
     # admin = models.ManyToManyField(CustomUser, on_delete=models.CASCADE)
     user = models.OneToOneField(CustomUser, on_delete=models.CASCADE)
-    name = models.CharField(max_length=255)
+    # name = models.CharField(max_length=255)
+    identification_number=models.IntegerField(unique=True)
     phone = models.CharField(max_length=11)  
     email = models.EmailField(max_length=255)
     otp = models.CharField(max_length=10, null=True)
