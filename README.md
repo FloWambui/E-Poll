@@ -7,7 +7,9 @@
 - Faith Okong'o
 
 ## Description 
-- This is a Simple,secure and transparent voting system. With our lives increasingly shifting online, it’s only logical that voting would transition to a digital platform, too. Common features include single-vote verification, which ensures members don’t inadvertently vote more than once; ballot tracking, which monitors the exact moment a ballot is processed; a secure network to protect the entire process from nominations to tabulation; and secret ballots, which keep ballots private. 
+With our lives increasingly shifting online, it’s only logical that voting would transition to a digital platform, too. 
+
+E-Poll This is a Simple,secure and transparent voting system. Common features include single-vote verification, which ensures members don’t inadvertently vote more than once; ballot tracking, which monitors the exact moment a ballot is processed; a secure network to protect the entire process from nominations to tabulation; and secret ballots, which keep ballots private. 
 
 ![image](https://user-images.githubusercontent.com/97955649/178937516-f3c5196e-f466-4ca8-896a-1a81cae65df8.png)
 
@@ -74,14 +76,14 @@ Here is a run through of how to set up the application:
 
 
 ## Contacts 
-**gflorencewambui@gmail.com**
-**mercymary958@gmail.com**
-**gladyswahito7@gmail.com**
-**okongofaith3@gmail.com**
+[gflorencewambui@gmail.com](Florence Wangechi)
+[mercymary958@gmail.com](Mary Otieno)
+[gladyswahito7@gmail.com](Gladys Wambura)
+[okongofaith3@gmail.com](Faith Okong'o)
 
 
 ## live link 
-
+[https://epoll-app.herokuapp.com/](E-Poll)
 
 
 ## License
