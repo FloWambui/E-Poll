@@ -50,6 +50,7 @@ INSTALLED_APPS = [
     'accounts.apps.AccountsConfig',
     'epoll.apps.EpollConfig',
     'administrator.apps.AdministratorConfig',
+    'home',
     'bootstrap4',
     'tinymce',
     'rest_framework',
