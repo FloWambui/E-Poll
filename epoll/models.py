@@ -2,7 +2,6 @@ from django.db import models
 from accounts.models import * 
 from cloudinary.models import CloudinaryField
 
-
 # Create your models here.
 class Voter(models.Model):
     # admin = models.ManyToManyField(CustomUser, on_delete=models.CASCADE)
