@@ -74,7 +74,7 @@ Here is a run through of how to set up the application:
 
 
 ## Contacts 
-**jflorencewambui@gmail.com**
+**gflorencewambui@gmail.com**
 **mercymary958@gmail.com**
 **gladyswahito7@gmail.com**
 **okongofaith3@gmail.com**
