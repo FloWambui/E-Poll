@@ -76,10 +76,10 @@ Here is a run through of how to set up the application:
 
 
 ## Contacts 
-[gflorencewambui@gmail.com](Florence Wangechi)
-[mercymary958@gmail.com](Mary Otieno)
-[gladyswahito7@gmail.com](Gladys Wambura)
-[okongofaith3@gmail.com](Faith Okong'o)
+###[gflorencewambui@gmail.com](Florence Wangechi)
+###[mercymary958@gmail.com]
+###[gladyswahito7@gmail.com]
+###[okongofaith3@gmail.com]
 
 
 ## live link 
