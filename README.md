@@ -7,7 +7,7 @@
 - Faith Okong'o
 
 ## Description 
-With our lives increasingly shifting online, it’s only logical that voting would transition to a digital platform, too. 
+With our lives increasingly shifting online, it’s only logical that voting would transition to a digital platform too. 
 
 E-Poll is a Simple,secure and transparent voting system. Common features include single-vote verification, which ensures members don’t inadvertently vote more than once; ballot tracking, which monitors the exact moment a ballot is processed; a secure network to protect the entire process from nominations to tabulation; and secret ballots, which keep ballots private. 
 
@@ -76,10 +76,10 @@ Here is a run through of how to set up the application:
 
 
 ## Contacts 
-### [gflorencewambui@gmail.com](Florence Wangechi)
-### [mercymary958@gmail.com]
-### [gladyswahito7@gmail.com]
-### [okongofaith3@gmail.com]
+* gflorencewambui@gmail.com
+* mercymary958@gmail.com
+* gladyswahito7@gmail.com
+* okongofaith3@gmail.com
 
 
 ## live link 
