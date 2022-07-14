@@ -56,7 +56,6 @@ def generate_ballot(display_controls=False):
 
         output = output + f"""</div>
         <div class="box-body">
-        <p>{instruction}
         <span class="pull-right">
         <button type="button" class="btn btn-success btn-sm btn-flat reset" data-desc="{position_name}"><i class="fa fa-refresh"></i> Reset</button>
         </span>
