@@ -9,7 +9,7 @@
 ## Description 
 With our lives increasingly shifting online, it’s only logical that voting would transition to a digital platform, too. 
 
-E-Poll This is a Simple,secure and transparent voting system. Common features include single-vote verification, which ensures members don’t inadvertently vote more than once; ballot tracking, which monitors the exact moment a ballot is processed; a secure network to protect the entire process from nominations to tabulation; and secret ballots, which keep ballots private. 
+E-Poll is a Simple,secure and transparent voting system. Common features include single-vote verification, which ensures members don’t inadvertently vote more than once; ballot tracking, which monitors the exact moment a ballot is processed; a secure network to protect the entire process from nominations to tabulation; and secret ballots, which keep ballots private. 
 
 ![image](https://user-images.githubusercontent.com/97955649/178937516-f3c5196e-f466-4ca8-896a-1a81cae65df8.png)
 
