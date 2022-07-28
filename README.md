@@ -83,7 +83,7 @@ Here is a run through of how to set up the application:
 
 
 ## live link 
-[https://epoll-app.herokuapp.com](E-Poll)
+<a target="_blank" href="https://epoll-app.herokuapp.com/">E-Poll</a>
 
 
 ## License
